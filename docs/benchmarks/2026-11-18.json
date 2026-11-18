@@ -1,0 +1,2240 @@
+{
+  "date": "2026-11-18",
+  "reference": {
+    "os": "Ubuntu 26.04.1 LTS",
+    "kernel": "7.0.0-43-generic",
+    "cpu": "Intel Core i7-8750H",
+    "gpu": "NVIDIA Quadro P600",
+    "gpu_driver": "580.178.04",
+    "rust": "1.96.1",
+    "bevy": "0.19.0",
+    "render_browser": "Google Chrome 154.0.8037.57",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "display_refresh_hz": 59.96
+  },
+  "headless": {
+    "500": {
+      "native": {
+        "step": {
+          "max_ms": 0.08218600000000001,
+          "mean_ms": 0.02543816500000001,
+          "p50_ms": 0.022344000000000003,
+          "p95_ms": 0.044968,
+          "p99_ms": 0.050158999999999995,
+          "samples": 400
+        },
+        "trace": {
+          "fired": 8832,
+          "hashes": [
+            {
+              "hash": "255a0e23b16af2a6",
+              "tick": 0
+            },
+            {
+              "hash": "1197b4f49fab7136",
+              "tick": 20
+            },
+            {
+              "hash": "38578f99228b972a",
+              "tick": 40
+            },
+            {
+              "hash": "4e614792f4ae704e",
+              "tick": 60
+            },
+            {
+              "hash": "b1e934dbceaef371",
+              "tick": 80
+            },
+            {
+              "hash": "53f4e36e13e0f304",
+              "tick": 100
+            },
+            {
+              "hash": "746ded3d91766528",
+              "tick": 120
+            },
+            {
+              "hash": "9142d5b5a0610a39",
+              "tick": 140
+            },
+            {
+              "hash": "18b531259ef768d9",
+              "tick": 160
+            },
+            {
+              "hash": "1d8a2767e2bacdb8",
+              "tick": 180
+            },
+            {
+              "hash": "a87955c9f880cb85",
+              "tick": 200
+            },
+            {
+              "hash": "4cdcbac547d7d5a1",
+              "tick": 220
+            },
+            {
+              "hash": "8ebb2de95a628001",
+              "tick": 240
+            },
+            {
+              "hash": "a51d98ebd29538ed",
+              "tick": 260
+            },
+            {
+              "hash": "cf53c0ce862ffc74",
+              "tick": 280
+            },
+            {
+              "hash": "644cfc63e2eb8111",
+              "tick": 300
+            },
+            {
+              "hash": "adfbc8d729fd0d06",
+              "tick": 320
+            },
+            {
+              "hash": "4c72a3c685df20ac",
+              "tick": 340
+            },
+            {
+              "hash": "b970075a1486dbcb",
+              "tick": 360
+            },
+            {
+              "hash": "000bf5c3ab682ef5",
+              "tick": 380
+            },
+            {
+              "hash": "59cae18a14f2901e",
+              "tick": 400
+            }
+          ],
+          "hits": 6338,
+          "moving": 286,
+          "orders": 8,
+          "peak_projectiles": 204,
+          "redeployed": 910,
+          "seed": 21041,
+          "ticks": 400,
+          "units": 500,
+          "version": 1
+        }
+      },
+      "browser": {
+        "trace": {
+          "version": 1,
+          "seed": 21041,
+          "units": 500,
+          "ticks": 400,
+          "orders": 8,
+          "moving": 286,
+          "fired": 8832,
+          "hits": 6338,
+          "redeployed": 910,
+          "peak_projectiles": 204,
+          "hashes": [
+            {
+              "tick": 0,
+              "hash": "255a0e23b16af2a6"
+            },
+            {
+              "tick": 20,
+              "hash": "1197b4f49fab7136"
+            },
+            {
+              "tick": 40,
+              "hash": "38578f99228b972a"
+            },
+            {
+              "tick": 60,
+              "hash": "4e614792f4ae704e"
+            },
+            {
+              "tick": 80,
+              "hash": "b1e934dbceaef371"
+            },
+            {
+              "tick": 100,
+              "hash": "53f4e36e13e0f304"
+            },
+            {
+              "tick": 120,
+              "hash": "746ded3d91766528"
+            },
+            {
+              "tick": 140,
+              "hash": "9142d5b5a0610a39"
+            },
+            {
+              "tick": 160,
+              "hash": "18b531259ef768d9"
+            },
+            {
+              "tick": 180,
+              "hash": "1d8a2767e2bacdb8"
+            },
+            {
+              "tick": 200,
+              "hash": "a87955c9f880cb85"
+            },
+            {
+              "tick": 220,
+              "hash": "4cdcbac547d7d5a1"
+            },
+            {
+              "tick": 240,
+              "hash": "8ebb2de95a628001"
+            },
+            {
+              "tick": 260,
+              "hash": "a51d98ebd29538ed"
+            },
+            {
+              "tick": 280,
+              "hash": "cf53c0ce862ffc74"
+            },
+            {
+              "tick": 300,
+              "hash": "644cfc63e2eb8111"
+            },
+            {
+              "tick": 320,
+              "hash": "adfbc8d729fd0d06"
+            },
+            {
+              "tick": 340,
+              "hash": "4c72a3c685df20ac"
+            },
+            {
+              "tick": 360,
+              "hash": "b970075a1486dbcb"
+            },
+            {
+              "tick": 380,
+              "hash": "000bf5c3ab682ef5"
+            },
+            {
+              "tick": 400,
+              "hash": "59cae18a14f2901e"
+            }
+          ]
+        },
+        "step": {
+          "samples": 400,
+          "mean_ms": 0.03724999994039536,
+          "p50_ms": 0,
+          "p95_ms": 0.10000002384185791,
+          "p99_ms": 0.10000002384185791,
+          "max_ms": 0.6000000238418579
+        },
+        "worker_memory_bytes": 1245184,
+        "chrome_version": "154.0.8037.57"
+      }
+    },
+    "4000": {
+      "native": {
+        "step": {
+          "max_ms": 0.387359,
+          "mean_ms": 0.13734165250000008,
+          "p50_ms": 0.105434,
+          "p95_ms": 0.28538199999999997,
+          "p99_ms": 0.333918,
+          "samples": 400
+        },
+        "trace": {
+          "fired": 37314,
+          "hashes": [
+            {
+              "hash": "bfc3ea058072a9d1",
+              "tick": 0
+            },
+            {
+              "hash": "5b3c5fa034049da1",
+              "tick": 20
+            },
+            {
+              "hash": "c21b5bbf5cc33bd3",
+              "tick": 40
+            },
+            {
+              "hash": "f9b372328748ade7",
+              "tick": 60
+            },
+            {
+              "hash": "b3b1bfd9303cd5d4",
+              "tick": 80
+            },
+            {
+              "hash": "d3dea08f3b99f5c9",
+              "tick": 100
+            },
+            {
+              "hash": "8de95950cf4b0a81",
+              "tick": 120
+            },
+            {
+              "hash": "67c30f2e29f00cfa",
+              "tick": 140
+            },
+            {
+              "hash": "29a067221fc5c0d8",
+              "tick": 160
+            },
+            {
+              "hash": "9b141c02cda7b3b5",
+              "tick": 180
+            },
+            {
+              "hash": "c78a629438740a17",
+              "tick": 200
+            },
+            {
+              "hash": "c8797a8a1239a91b",
+              "tick": 220
+            },
+            {
+              "hash": "7a8a48de86dd9126",
+              "tick": 240
+            },
+            {
+              "hash": "6e85b55020199ac4",
+              "tick": 260
+            },
+            {
+              "hash": "f1c84b5b7fc593c8",
+              "tick": 280
+            },
+            {
+              "hash": "3b7aae71ffcd6bcf",
+              "tick": 300
+            },
+            {
+              "hash": "2a75576aac8832b5",
+              "tick": 320
+            },
+            {
+              "hash": "1cada12989b190b6",
+              "tick": 340
+            },
+            {
+              "hash": "30633f19d063faec",
+              "tick": 360
+            },
+            {
+              "hash": "460348937452573b",
+              "tick": 380
+            },
+            {
+              "hash": "7881fb8b4e225665",
+              "tick": 400
+            }
+          ],
+          "hits": 29274,
+          "moving": 2065,
+          "orders": 8,
+          "peak_projectiles": 1282,
+          "redeployed": 4173,
+          "seed": 21041,
+          "ticks": 400,
+          "units": 4000,
+          "version": 1
+        }
+      },
+      "browser": {
+        "trace": {
+          "version": 1,
+          "seed": 21041,
+          "units": 4000,
+          "ticks": 400,
+          "orders": 8,
+          "moving": 2065,
+          "fired": 37314,
+          "hits": 29274,
+          "redeployed": 4173,
+          "peak_projectiles": 1282,
+          "hashes": [
+            {
+              "tick": 0,
+              "hash": "bfc3ea058072a9d1"
+            },
+            {
+              "tick": 20,
+              "hash": "5b3c5fa034049da1"
+            },
+            {
+              "tick": 40,
+              "hash": "c21b5bbf5cc33bd3"
+            },
+            {
+              "tick": 60,
+              "hash": "f9b372328748ade7"
+            },
+            {
+              "tick": 80,
+              "hash": "b3b1bfd9303cd5d4"
+            },
+            {
+              "tick": 100,
+              "hash": "d3dea08f3b99f5c9"
+            },
+            {
+              "tick": 120,
+              "hash": "8de95950cf4b0a81"
+            },
+            {
+              "tick": 140,
+              "hash": "67c30f2e29f00cfa"
+            },
+            {
+              "tick": 160,
+              "hash": "29a067221fc5c0d8"
+            },
+            {
+              "tick": 180,
+              "hash": "9b141c02cda7b3b5"
+            },
+            {
+              "tick": 200,
+              "hash": "c78a629438740a17"
+            },
+            {
+              "tick": 220,
+              "hash": "c8797a8a1239a91b"
+            },
+            {
+              "tick": 240,
+              "hash": "7a8a48de86dd9126"
+            },
+            {
+              "tick": 260,
+              "hash": "6e85b55020199ac4"
+            },
+            {
+              "tick": 280,
+              "hash": "f1c84b5b7fc593c8"
+            },
+            {
+              "tick": 300,
+              "hash": "3b7aae71ffcd6bcf"
+            },
+            {
+              "tick": 320,
+              "hash": "2a75576aac8832b5"
+            },
+            {
+              "tick": 340,
+              "hash": "1cada12989b190b6"
+            },
+            {
+              "tick": 360,
+              "hash": "30633f19d063faec"
+            },
+            {
+              "tick": 380,
+              "hash": "460348937452573b"
+            },
+            {
+              "tick": 400,
+              "hash": "7881fb8b4e225665"
+            }
+          ]
+        },
+        "step": {
+          "samples": 400,
+          "mean_ms": 0.20349999994039536,
+          "p50_ms": 0.19999998807907104,
+          "p95_ms": 0.3999999761581421,
+          "p99_ms": 0.5,
+          "max_ms": 2.199999988079071
+        },
+        "worker_memory_bytes": 1507328,
+        "chrome_version": "154.0.8037.57"
+      }
+    }
+  },
+  "rendered": {
+    "native": [
+      {
+        "actual_resolution": [
+          1920,
+          1080
+        ],
+        "frame": {
+          "max_ms": 6.128731999999999,
+          "mean_ms": 3.555385816236638,
+          "p50_ms": 3.541733,
+          "p95_ms": 3.76334,
+          "p99_ms": 4.054412,
+          "samples": 4767
+        },
+        "mean_frames_per_second": 281.26342728635177,
+        "native_peak_rss_bytes": 437669888,
+        "options": {
+          "fullscreen": false,
+          "height": 1080,
+          "inspect": false,
+          "rigs": 0,
+          "seed": 21041,
+          "ticks": 400,
+          "units": 500,
+          "warmup": 60,
+          "width": 1920
+        },
+        "render_update": {
+          "max_ms": 0.074309,
+          "mean_ms": 0.009177297461715953,
+          "p50_ms": 0.008759000000000001,
+          "p95_ms": 0.012994,
+          "p99_ms": 0.018083,
+          "samples": 4767
+        },
+        "simulation": {
+          "missed_deadlines": 0,
+          "skipped_transfers": 0,
+          "snapshot": {
+            "max_ms": 0.026667,
+            "mean_ms": 0.002829841176470589,
+            "p50_ms": 0.002799,
+            "p95_ms": 0.003812,
+            "p99_ms": 0.005174,
+            "samples": 340
+          },
+          "snapshot_bytes": 6000,
+          "step": {
+            "max_ms": 0.091968,
+            "mean_ms": 0.0258168294117647,
+            "p50_ms": 0.024078,
+            "p95_ms": 0.040479,
+            "p99_ms": 0.052448,
+            "samples": 340
+          },
+          "trace": {
+            "fired": 8832,
+            "hashes": [
+              {
+                "hash": "255a0e23b16af2a6",
+                "tick": 0
+              },
+              {
+                "hash": "1197b4f49fab7136",
+                "tick": 20
+              },
+              {
+                "hash": "38578f99228b972a",
+                "tick": 40
+              },
+              {
+                "hash": "4e614792f4ae704e",
+                "tick": 60
+              },
+              {
+                "hash": "b1e934dbceaef371",
+                "tick": 80
+              },
+              {
+                "hash": "53f4e36e13e0f304",
+                "tick": 100
+              },
+              {
+                "hash": "746ded3d91766528",
+                "tick": 120
+              },
+              {
+                "hash": "9142d5b5a0610a39",
+                "tick": 140
+              },
+              {
+                "hash": "18b531259ef768d9",
+                "tick": 160
+              },
+              {
+                "hash": "1d8a2767e2bacdb8",
+                "tick": 180
+              },
+              {
+                "hash": "a87955c9f880cb85",
+                "tick": 200
+              },
+              {
+                "hash": "4cdcbac547d7d5a1",
+                "tick": 220
+              },
+              {
+                "hash": "8ebb2de95a628001",
+                "tick": 240
+              },
+              {
+                "hash": "a51d98ebd29538ed",
+                "tick": 260
+              },
+              {
+                "hash": "cf53c0ce862ffc74",
+                "tick": 280
+              },
+              {
+                "hash": "644cfc63e2eb8111",
+                "tick": 300
+              },
+              {
+                "hash": "adfbc8d729fd0d06",
+                "tick": 320
+              },
+              {
+                "hash": "4c72a3c685df20ac",
+                "tick": 340
+              },
+              {
+                "hash": "b970075a1486dbcb",
+                "tick": 360
+              },
+              {
+                "hash": "000bf5c3ab682ef5",
+                "tick": 380
+              },
+              {
+                "hash": "59cae18a14f2901e",
+                "tick": 400
+              }
+            ],
+            "hits": 6338,
+            "moving": 286,
+            "orders": 8,
+            "peak_projectiles": 204,
+            "redeployed": 910,
+            "seed": 21041,
+            "ticks": 400,
+            "units": 500,
+            "version": 1
+          },
+          "worker_copy": null,
+          "worker_memory_bytes": null
+        },
+        "status": {
+          "adapter": "Quadro P600",
+          "backend": "Vulkan",
+          "clip": 0,
+          "colored_rigs": [
+            0,
+            0
+          ],
+          "error": null,
+          "pose_changes": [
+            0,
+            0,
+            0
+          ],
+          "ready": true,
+          "rigs_ready": 0,
+          "tick": 400
+        },
+        "view_queue": {
+          "max_ms": 4.696127,
+          "mean_ms": 1.7508068647058823,
+          "p50_ms": 1.658878,
+          "p95_ms": 3.370234,
+          "p99_ms": 3.641384,
+          "samples": 340
+        },
+        "views_applied": 340,
+        "views_replaced": 1
+      },
+      {
+        "actual_resolution": [
+          1920,
+          1080
+        ],
+        "frame": {
+          "max_ms": 11.799252,
+          "mean_ms": 4.922382070577989,
+          "p50_ms": 4.865782,
+          "p95_ms": 5.253453,
+          "p99_ms": 6.519345,
+          "samples": 3443
+        },
+        "mean_frames_per_second": 203.1536734982824,
+        "native_peak_rss_bytes": 448528384,
+        "options": {
+          "fullscreen": false,
+          "height": 1080,
+          "inspect": false,
+          "rigs": 0,
+          "seed": 21041,
+          "ticks": 400,
+          "units": 4000,
+          "warmup": 60,
+          "width": 1920
+        },
+        "render_update": {
+          "max_ms": 0.31295,
+          "mean_ms": 0.05839323671216967,
+          "p50_ms": 0.054583,
+          "p95_ms": 0.08490299999999999,
+          "p99_ms": 0.124663,
+          "samples": 3443
+        },
+        "simulation": {
+          "missed_deadlines": 0,
+          "skipped_transfers": 0,
+          "snapshot": {
+            "max_ms": 0.13156800000000002,
+            "mean_ms": 0.021324767647058818,
+            "p50_ms": 0.018183,
+            "p95_ms": 0.037785,
+            "p99_ms": 0.081875,
+            "samples": 340
+          },
+          "snapshot_bytes": 48000,
+          "step": {
+            "max_ms": 1.273781,
+            "mean_ms": 0.17630224411764703,
+            "p50_ms": 0.142456,
+            "p95_ms": 0.342575,
+            "p99_ms": 0.810354,
+            "samples": 340
+          },
+          "trace": {
+            "fired": 37314,
+            "hashes": [
+              {
+                "hash": "bfc3ea058072a9d1",
+                "tick": 0
+              },
+              {
+                "hash": "5b3c5fa034049da1",
+                "tick": 20
+              },
+              {
+                "hash": "c21b5bbf5cc33bd3",
+                "tick": 40
+              },
+              {
+                "hash": "f9b372328748ade7",
+                "tick": 60
+              },
+              {
+                "hash": "b3b1bfd9303cd5d4",
+                "tick": 80
+              },
+              {
+                "hash": "d3dea08f3b99f5c9",
+                "tick": 100
+              },
+              {
+                "hash": "8de95950cf4b0a81",
+                "tick": 120
+              },
+              {
+                "hash": "67c30f2e29f00cfa",
+                "tick": 140
+              },
+              {
+                "hash": "29a067221fc5c0d8",
+                "tick": 160
+              },
+              {
+                "hash": "9b141c02cda7b3b5",
+                "tick": 180
+              },
+              {
+                "hash": "c78a629438740a17",
+                "tick": 200
+              },
+              {
+                "hash": "c8797a8a1239a91b",
+                "tick": 220
+              },
+              {
+                "hash": "7a8a48de86dd9126",
+                "tick": 240
+              },
+              {
+                "hash": "6e85b55020199ac4",
+                "tick": 260
+              },
+              {
+                "hash": "f1c84b5b7fc593c8",
+                "tick": 280
+              },
+              {
+                "hash": "3b7aae71ffcd6bcf",
+                "tick": 300
+              },
+              {
+                "hash": "2a75576aac8832b5",
+                "tick": 320
+              },
+              {
+                "hash": "1cada12989b190b6",
+                "tick": 340
+              },
+              {
+                "hash": "30633f19d063faec",
+                "tick": 360
+              },
+              {
+                "hash": "460348937452573b",
+                "tick": 380
+              },
+              {
+                "hash": "7881fb8b4e225665",
+                "tick": 400
+              }
+            ],
+            "hits": 29274,
+            "moving": 2065,
+            "orders": 8,
+            "peak_projectiles": 1282,
+            "redeployed": 4173,
+            "seed": 21041,
+            "ticks": 400,
+            "units": 4000,
+            "version": 1
+          },
+          "worker_copy": null,
+          "worker_memory_bytes": null
+        },
+        "status": {
+          "adapter": "Quadro P600",
+          "backend": "Vulkan",
+          "clip": 0,
+          "colored_rigs": [
+            0,
+            0
+          ],
+          "error": null,
+          "pose_changes": [
+            0,
+            0,
+            0
+          ],
+          "ready": true,
+          "rigs_ready": 0,
+          "tick": 400
+        },
+        "view_queue": {
+          "max_ms": 8.682687999999999,
+          "mean_ms": 2.526132864705882,
+          "p50_ms": 2.423268,
+          "p95_ms": 4.800133,
+          "p99_ms": 6.312660999999999,
+          "samples": 340
+        },
+        "views_applied": 340,
+        "views_replaced": 1
+      },
+      {
+        "actual_resolution": [
+          1920,
+          1080
+        ],
+        "frame": {
+          "max_ms": 15.726285,
+          "mean_ms": 6.525881112009258,
+          "p50_ms": 6.322098,
+          "p95_ms": 7.737256,
+          "p99_ms": 11.802508,
+          "samples": 2598
+        },
+        "mean_frames_per_second": 153.23601255311704,
+        "native_peak_rss_bytes": 464977920,
+        "options": {
+          "fullscreen": false,
+          "height": 1080,
+          "inspect": false,
+          "rigs": 64,
+          "seed": 21041,
+          "ticks": 400,
+          "units": 4000,
+          "warmup": 60,
+          "width": 1920
+        },
+        "render_update": {
+          "max_ms": 0.31724800000000003,
+          "mean_ms": 0.06680997421093145,
+          "p50_ms": 0.058758000000000005,
+          "p95_ms": 0.118035,
+          "p99_ms": 0.17538199999999998,
+          "samples": 2598
+        },
+        "simulation": {
+          "missed_deadlines": 0,
+          "skipped_transfers": 0,
+          "snapshot": {
+            "max_ms": 0.109032,
+            "mean_ms": 0.025471229411764707,
+            "p50_ms": 0.019556,
+            "p95_ms": 0.054337,
+            "p99_ms": 0.098083,
+            "samples": 340
+          },
+          "snapshot_bytes": 48000,
+          "step": {
+            "max_ms": 1.004039,
+            "mean_ms": 0.198737394117647,
+            "p50_ms": 0.182373,
+            "p95_ms": 0.372508,
+            "p99_ms": 0.888746,
+            "samples": 340
+          },
+          "trace": {
+            "fired": 37314,
+            "hashes": [
+              {
+                "hash": "bfc3ea058072a9d1",
+                "tick": 0
+              },
+              {
+                "hash": "5b3c5fa034049da1",
+                "tick": 20
+              },
+              {
+                "hash": "c21b5bbf5cc33bd3",
+                "tick": 40
+              },
+              {
+                "hash": "f9b372328748ade7",
+                "tick": 60
+              },
+              {
+                "hash": "b3b1bfd9303cd5d4",
+                "tick": 80
+              },
+              {
+                "hash": "d3dea08f3b99f5c9",
+                "tick": 100
+              },
+              {
+                "hash": "8de95950cf4b0a81",
+                "tick": 120
+              },
+              {
+                "hash": "67c30f2e29f00cfa",
+                "tick": 140
+              },
+              {
+                "hash": "29a067221fc5c0d8",
+                "tick": 160
+              },
+              {
+                "hash": "9b141c02cda7b3b5",
+                "tick": 180
+              },
+              {
+                "hash": "c78a629438740a17",
+                "tick": 200
+              },
+              {
+                "hash": "c8797a8a1239a91b",
+                "tick": 220
+              },
+              {
+                "hash": "7a8a48de86dd9126",
+                "tick": 240
+              },
+              {
+                "hash": "6e85b55020199ac4",
+                "tick": 260
+              },
+              {
+                "hash": "f1c84b5b7fc593c8",
+                "tick": 280
+              },
+              {
+                "hash": "3b7aae71ffcd6bcf",
+                "tick": 300
+              },
+              {
+                "hash": "2a75576aac8832b5",
+                "tick": 320
+              },
+              {
+                "hash": "1cada12989b190b6",
+                "tick": 340
+              },
+              {
+                "hash": "30633f19d063faec",
+                "tick": 360
+              },
+              {
+                "hash": "460348937452573b",
+                "tick": 380
+              },
+              {
+                "hash": "7881fb8b4e225665",
+                "tick": 400
+              }
+            ],
+            "hits": 29274,
+            "moving": 2065,
+            "orders": 8,
+            "peak_projectiles": 1282,
+            "redeployed": 4173,
+            "seed": 21041,
+            "ticks": 400,
+            "units": 4000,
+            "version": 1
+          },
+          "worker_copy": null,
+          "worker_memory_bytes": null
+        },
+        "status": {
+          "adapter": "Quadro P600",
+          "backend": "Vulkan",
+          "clip": 0,
+          "colored_rigs": [
+            32,
+            32
+          ],
+          "error": null,
+          "pose_changes": [
+            0,
+            0,
+            0
+          ],
+          "ready": true,
+          "rigs_ready": 64,
+          "tick": 400
+        },
+        "view_queue": {
+          "max_ms": 10.293647,
+          "mean_ms": 3.4748450705882368,
+          "p50_ms": 3.669282,
+          "p95_ms": 6.345239,
+          "p99_ms": 7.635848,
+          "samples": 340
+        },
+        "views_applied": 340,
+        "views_replaced": 0
+      },
+      {
+        "actual_resolution": [
+          1920,
+          1080
+        ],
+        "frame": {
+          "max_ms": 27.057464,
+          "mean_ms": 12.770454025602405,
+          "p50_ms": 11.77845,
+          "p95_ms": 19.743072,
+          "p99_ms": 23.329789,
+          "samples": 1328
+        },
+        "mean_frames_per_second": 78.30575154142402,
+        "native_peak_rss_bytes": 438530048,
+        "options": {
+          "fullscreen": false,
+          "height": 1080,
+          "inspect": false,
+          "rigs": 500,
+          "seed": 21041,
+          "ticks": 400,
+          "units": 500,
+          "warmup": 60,
+          "width": 1920
+        },
+        "render_update": {
+          "max_ms": 0.110934,
+          "mean_ms": 0.016611379518072275,
+          "p50_ms": 0.010875,
+          "p95_ms": 0.049373,
+          "p99_ms": 0.07125400000000001,
+          "samples": 1328
+        },
+        "simulation": {
+          "missed_deadlines": 0,
+          "skipped_transfers": 0,
+          "snapshot": {
+            "max_ms": 0.018126,
+            "mean_ms": 0.005096264705882352,
+            "p50_ms": 0.003385,
+            "p95_ms": 0.01136,
+            "p99_ms": 0.015003,
+            "samples": 340
+          },
+          "snapshot_bytes": 6000,
+          "step": {
+            "max_ms": 0.136394,
+            "mean_ms": 0.03933512941176471,
+            "p50_ms": 0.031832000000000006,
+            "p95_ms": 0.086715,
+            "p99_ms": 0.119648,
+            "samples": 340
+          },
+          "trace": {
+            "fired": 8832,
+            "hashes": [
+              {
+                "hash": "255a0e23b16af2a6",
+                "tick": 0
+              },
+              {
+                "hash": "1197b4f49fab7136",
+                "tick": 20
+              },
+              {
+                "hash": "38578f99228b972a",
+                "tick": 40
+              },
+              {
+                "hash": "4e614792f4ae704e",
+                "tick": 60
+              },
+              {
+                "hash": "b1e934dbceaef371",
+                "tick": 80
+              },
+              {
+                "hash": "53f4e36e13e0f304",
+                "tick": 100
+              },
+              {
+                "hash": "746ded3d91766528",
+                "tick": 120
+              },
+              {
+                "hash": "9142d5b5a0610a39",
+                "tick": 140
+              },
+              {
+                "hash": "18b531259ef768d9",
+                "tick": 160
+              },
+              {
+                "hash": "1d8a2767e2bacdb8",
+                "tick": 180
+              },
+              {
+                "hash": "a87955c9f880cb85",
+                "tick": 200
+              },
+              {
+                "hash": "4cdcbac547d7d5a1",
+                "tick": 220
+              },
+              {
+                "hash": "8ebb2de95a628001",
+                "tick": 240
+              },
+              {
+                "hash": "a51d98ebd29538ed",
+                "tick": 260
+              },
+              {
+                "hash": "cf53c0ce862ffc74",
+                "tick": 280
+              },
+              {
+                "hash": "644cfc63e2eb8111",
+                "tick": 300
+              },
+              {
+                "hash": "adfbc8d729fd0d06",
+                "tick": 320
+              },
+              {
+                "hash": "4c72a3c685df20ac",
+                "tick": 340
+              },
+              {
+                "hash": "b970075a1486dbcb",
+                "tick": 360
+              },
+              {
+                "hash": "000bf5c3ab682ef5",
+                "tick": 380
+              },
+              {
+                "hash": "59cae18a14f2901e",
+                "tick": 400
+              }
+            ],
+            "hits": 6338,
+            "moving": 286,
+            "orders": 8,
+            "peak_projectiles": 204,
+            "redeployed": 910,
+            "seed": 21041,
+            "ticks": 400,
+            "units": 500,
+            "version": 1
+          },
+          "worker_copy": null,
+          "worker_memory_bytes": null
+        },
+        "status": {
+          "adapter": "Quadro P600",
+          "backend": "Vulkan",
+          "clip": 0,
+          "colored_rigs": [
+            250,
+            250
+          ],
+          "error": null,
+          "pose_changes": [
+            0,
+            0,
+            0
+          ],
+          "ready": true,
+          "rigs_ready": 500,
+          "tick": 400
+        },
+        "view_queue": {
+          "max_ms": 22.705423,
+          "mean_ms": 6.852650673529406,
+          "p50_ms": 6.378095,
+          "p95_ms": 14.552976,
+          "p99_ms": 17.740281,
+          "samples": 340
+        },
+        "views_applied": 340,
+        "views_replaced": 0
+      }
+    ],
+    "browser": [
+      {
+        "options": {
+          "units": 500,
+          "rigs": 0,
+          "seed": 21041,
+          "ticks": 400,
+          "warmup": 60,
+          "width": 1920,
+          "height": 1080,
+          "fullscreen": false,
+          "inspect": false
+        },
+        "status": {
+          "ready": true,
+          "error": null,
+          "adapter": "",
+          "backend": "BrowserWebGpu",
+          "tick": 400,
+          "rigs_ready": 0,
+          "colored_rigs": [
+            0,
+            0
+          ],
+          "clip": 0,
+          "pose_changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "actual_resolution": [
+          1920,
+          1080
+        ],
+        "frame": {
+          "samples": 1017,
+          "mean_ms": 16.675024582104232,
+          "p50_ms": 16.5,
+          "p95_ms": 17.6,
+          "p99_ms": 21.7,
+          "max_ms": 25.7
+        },
+        "mean_frames_per_second": 59.96992658548809,
+        "render_update": {
+          "samples": 1017,
+          "mean_ms": 0.014454277286135658,
+          "p50_ms": 0,
+          "p95_ms": 0.1,
+          "p99_ms": 0.1,
+          "max_ms": 0.1
+        },
+        "view_queue": {
+          "samples": 340,
+          "mean_ms": 7.538235294117642,
+          "p50_ms": 7.5,
+          "p95_ms": 11.9,
+          "p99_ms": 12.4,
+          "max_ms": 12.7
+        },
+        "views_applied": 340,
+        "views_replaced": 1,
+        "simulation": {
+          "trace": {
+            "version": 1,
+            "seed": 21041,
+            "units": 500,
+            "ticks": 400,
+            "orders": 8,
+            "moving": 286,
+            "fired": 8832,
+            "hits": 6338,
+            "redeployed": 910,
+            "peak_projectiles": 204,
+            "hashes": [
+              {
+                "tick": 0,
+                "hash": "255a0e23b16af2a6"
+              },
+              {
+                "tick": 20,
+                "hash": "1197b4f49fab7136"
+              },
+              {
+                "tick": 40,
+                "hash": "38578f99228b972a"
+              },
+              {
+                "tick": 60,
+                "hash": "4e614792f4ae704e"
+              },
+              {
+                "tick": 80,
+                "hash": "b1e934dbceaef371"
+              },
+              {
+                "tick": 100,
+                "hash": "53f4e36e13e0f304"
+              },
+              {
+                "tick": 120,
+                "hash": "746ded3d91766528"
+              },
+              {
+                "tick": 140,
+                "hash": "9142d5b5a0610a39"
+              },
+              {
+                "tick": 160,
+                "hash": "18b531259ef768d9"
+              },
+              {
+                "tick": 180,
+                "hash": "1d8a2767e2bacdb8"
+              },
+              {
+                "tick": 200,
+                "hash": "a87955c9f880cb85"
+              },
+              {
+                "tick": 220,
+                "hash": "4cdcbac547d7d5a1"
+              },
+              {
+                "tick": 240,
+                "hash": "8ebb2de95a628001"
+              },
+              {
+                "tick": 260,
+                "hash": "a51d98ebd29538ed"
+              },
+              {
+                "tick": 280,
+                "hash": "cf53c0ce862ffc74"
+              },
+              {
+                "tick": 300,
+                "hash": "644cfc63e2eb8111"
+              },
+              {
+                "tick": 320,
+                "hash": "adfbc8d729fd0d06"
+              },
+              {
+                "tick": 340,
+                "hash": "4c72a3c685df20ac"
+              },
+              {
+                "tick": 360,
+                "hash": "b970075a1486dbcb"
+              },
+              {
+                "tick": 380,
+                "hash": "000bf5c3ab682ef5"
+              },
+              {
+                "tick": 400,
+                "hash": "59cae18a14f2901e"
+              }
+            ]
+          },
+          "snapshot_bytes": 6000,
+          "missed_deadlines": 0,
+          "skipped_transfers": 0,
+          "step": {
+            "samples": 340,
+            "mean_ms": 0.046764707565307616,
+            "p50_ms": 0,
+            "p95_ms": 0.10000002384185792,
+            "p99_ms": 0.20000004768371585,
+            "max_ms": 0.20000004768371585
+          },
+          "snapshot": {
+            "samples": 340,
+            "mean_ms": 0.008823528535225812,
+            "p50_ms": 0,
+            "p95_ms": 0.09999996423721312,
+            "p99_ms": 0.10000002384185792,
+            "max_ms": 0.10000002384185792
+          },
+          "worker_copy": {
+            "samples": 340,
+            "mean_ms": 0.0035294117296443264,
+            "p50_ms": 0,
+            "p95_ms": 0,
+            "p99_ms": 0.10000002384185792,
+            "max_ms": 0.10000002384185792
+          },
+          "worker_memory_bytes": 1245184
+        },
+        "browser": {
+          "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+          "worker_delivery": {
+            "samples": 340,
+            "mean_ms": 0.35514574156087986,
+            "p50_ms": 0.2001953125,
+            "p95_ms": 0.40019530057907104,
+            "p99_ms": 4.000244140625,
+            "max_ms": 18.30009764432907
+          },
+          "page_copy": {
+            "samples": 340,
+            "mean_ms": 0.020882352485376246,
+            "p50_ms": 0,
+            "p95_ms": 0.10000002384185791,
+            "p99_ms": 0.10000002384185791,
+            "max_ms": 0.19999998807907104
+          },
+          "page_skipped": 0,
+          "gpu": {
+            "vendor": "nvidia",
+            "architecture": "pascal",
+            "device": "",
+            "description": "",
+            "fallback": false
+          },
+          "renderer_memory_bytes": 51904512
+        },
+        "chrome_version": "154.0.8037.57"
+      },
+      {
+        "options": {
+          "units": 4000,
+          "rigs": 0,
+          "seed": 21041,
+          "ticks": 400,
+          "warmup": 60,
+          "width": 1920,
+          "height": 1080,
+          "fullscreen": false,
+          "inspect": false
+        },
+        "status": {
+          "ready": true,
+          "error": null,
+          "adapter": "",
+          "backend": "BrowserWebGpu",
+          "tick": 400,
+          "rigs_ready": 0,
+          "colored_rigs": [
+            0,
+            0
+          ],
+          "clip": 0,
+          "pose_changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "actual_resolution": [
+          1920,
+          1080
+        ],
+        "frame": {
+          "samples": 1016,
+          "mean_ms": 16.675787401574787,
+          "p50_ms": 16.6,
+          "p95_ms": 17.7,
+          "p99_ms": 26.200000000000003,
+          "max_ms": 30.599999999999998
+        },
+        "mean_frames_per_second": 59.96718331306889,
+        "render_update": {
+          "samples": 1016,
+          "mean_ms": 0.07509842519685114,
+          "p50_ms": 0.1,
+          "p95_ms": 0.2,
+          "p99_ms": 0.2,
+          "max_ms": 0.4
+        },
+        "view_queue": {
+          "samples": 340,
+          "mean_ms": 8.858529411764708,
+          "p50_ms": 10.8,
+          "p95_ms": 12.4,
+          "p99_ms": 12.8,
+          "max_ms": 13.2
+        },
+        "views_applied": 340,
+        "views_replaced": 1,
+        "simulation": {
+          "trace": {
+            "version": 1,
+            "seed": 21041,
+            "units": 4000,
+            "ticks": 400,
+            "orders": 8,
+            "moving": 2065,
+            "fired": 37314,
+            "hits": 29274,
+            "redeployed": 4173,
+            "peak_projectiles": 1282,
+            "hashes": [
+              {
+                "tick": 0,
+                "hash": "bfc3ea058072a9d1"
+              },
+              {
+                "tick": 20,
+                "hash": "5b3c5fa034049da1"
+              },
+              {
+                "tick": 40,
+                "hash": "c21b5bbf5cc33bd3"
+              },
+              {
+                "tick": 60,
+                "hash": "f9b372328748ade7"
+              },
+              {
+                "tick": 80,
+                "hash": "b3b1bfd9303cd5d4"
+              },
+              {
+                "tick": 100,
+                "hash": "d3dea08f3b99f5c9"
+              },
+              {
+                "tick": 120,
+                "hash": "8de95950cf4b0a81"
+              },
+              {
+                "tick": 140,
+                "hash": "67c30f2e29f00cfa"
+              },
+              {
+                "tick": 160,
+                "hash": "29a067221fc5c0d8"
+              },
+              {
+                "tick": 180,
+                "hash": "9b141c02cda7b3b5"
+              },
+              {
+                "tick": 200,
+                "hash": "c78a629438740a17"
+              },
+              {
+                "tick": 220,
+                "hash": "c8797a8a1239a91b"
+              },
+              {
+                "tick": 240,
+                "hash": "7a8a48de86dd9126"
+              },
+              {
+                "tick": 260,
+                "hash": "6e85b55020199ac4"
+              },
+              {
+                "tick": 280,
+                "hash": "f1c84b5b7fc593c8"
+              },
+              {
+                "tick": 300,
+                "hash": "3b7aae71ffcd6bcf"
+              },
+              {
+                "tick": 320,
+                "hash": "2a75576aac8832b5"
+              },
+              {
+                "tick": 340,
+                "hash": "1cada12989b190b6"
+              },
+              {
+                "tick": 360,
+                "hash": "30633f19d063faec"
+              },
+              {
+                "tick": 380,
+                "hash": "460348937452573b"
+              },
+              {
+                "tick": 400,
+                "hash": "7881fb8b4e225665"
+              }
+            ]
+          },
+          "snapshot_bytes": 48000,
+          "missed_deadlines": 0,
+          "skipped_transfers": 0,
+          "step": {
+            "samples": 340,
+            "mean_ms": 0.2161764697116964,
+            "p50_ms": 0.19999998807907104,
+            "p95_ms": 0.3999999761581421,
+            "p99_ms": 0.5999999642372131,
+            "max_ms": 0.9000000357627869
+          },
+          "snapshot": {
+            "samples": 340,
+            "mean_ms": 0.034117646603023306,
+            "p50_ms": 0,
+            "p95_ms": 0.10000002384185792,
+            "p99_ms": 0.10000002384185792,
+            "max_ms": 0.20000004768371585
+          },
+          "worker_copy": {
+            "samples": 340,
+            "mean_ms": 0.008235293977400835,
+            "p50_ms": 0,
+            "p95_ms": 0.09999996423721312,
+            "p99_ms": 0.10000002384185792,
+            "max_ms": 0.10000002384185792
+          },
+          "worker_memory_bytes": 1507328
+        },
+        "browser": {
+          "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+          "worker_delivery": {
+            "samples": 340,
+            "mean_ms": 2.11961309716982,
+            "p50_ms": 0.899951159954071,
+            "p95_ms": 5.799902319908142,
+            "p99_ms": 10.499902307987213,
+            "max_ms": 11.799902319908142
+          },
+          "page_copy": {
+            "samples": 340,
+            "mean_ms": 0.017941176716019126,
+            "p50_ms": 0,
+            "p95_ms": 0.10000002384185791,
+            "p99_ms": 0.10000002384185791,
+            "max_ms": 0.19999998807907104
+          },
+          "page_skipped": 0,
+          "gpu": {
+            "vendor": "nvidia",
+            "architecture": "pascal",
+            "device": "",
+            "description": "",
+            "fallback": false
+          },
+          "renderer_memory_bytes": 61734912
+        },
+        "chrome_version": "154.0.8037.57"
+      },
+      {
+        "options": {
+          "units": 4000,
+          "rigs": 64,
+          "seed": 21041,
+          "ticks": 400,
+          "warmup": 60,
+          "width": 1920,
+          "height": 1080,
+          "fullscreen": false,
+          "inspect": false
+        },
+        "status": {
+          "ready": true,
+          "error": null,
+          "adapter": "",
+          "backend": "BrowserWebGpu",
+          "tick": 400,
+          "rigs_ready": 64,
+          "colored_rigs": [
+            32,
+            32
+          ],
+          "clip": 0,
+          "pose_changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "actual_resolution": [
+          1920,
+          1080
+        ],
+        "frame": {
+          "samples": 1017,
+          "mean_ms": 16.67472959685347,
+          "p50_ms": 16.6,
+          "p95_ms": 17.6,
+          "p99_ms": 19,
+          "max_ms": 35.6
+        },
+        "mean_frames_per_second": 59.97098748687957,
+        "render_update": {
+          "samples": 1017,
+          "mean_ms": 0.06017699115044303,
+          "p50_ms": 0.1,
+          "p95_ms": 0.1,
+          "p99_ms": 0.2,
+          "max_ms": 0.6
+        },
+        "view_queue": {
+          "samples": 340,
+          "mean_ms": 8.302647058823533,
+          "p50_ms": 8.9,
+          "p95_ms": 10.5,
+          "p99_ms": 10.8,
+          "max_ms": 11.1
+        },
+        "views_applied": 340,
+        "views_replaced": 1,
+        "simulation": {
+          "trace": {
+            "version": 1,
+            "seed": 21041,
+            "units": 4000,
+            "ticks": 400,
+            "orders": 8,
+            "moving": 2065,
+            "fired": 37314,
+            "hits": 29274,
+            "redeployed": 4173,
+            "peak_projectiles": 1282,
+            "hashes": [
+              {
+                "tick": 0,
+                "hash": "bfc3ea058072a9d1"
+              },
+              {
+                "tick": 20,
+                "hash": "5b3c5fa034049da1"
+              },
+              {
+                "tick": 40,
+                "hash": "c21b5bbf5cc33bd3"
+              },
+              {
+                "tick": 60,
+                "hash": "f9b372328748ade7"
+              },
+              {
+                "tick": 80,
+                "hash": "b3b1bfd9303cd5d4"
+              },
+              {
+                "tick": 100,
+                "hash": "d3dea08f3b99f5c9"
+              },
+              {
+                "tick": 120,
+                "hash": "8de95950cf4b0a81"
+              },
+              {
+                "tick": 140,
+                "hash": "67c30f2e29f00cfa"
+              },
+              {
+                "tick": 160,
+                "hash": "29a067221fc5c0d8"
+              },
+              {
+                "tick": 180,
+                "hash": "9b141c02cda7b3b5"
+              },
+              {
+                "tick": 200,
+                "hash": "c78a629438740a17"
+              },
+              {
+                "tick": 220,
+                "hash": "c8797a8a1239a91b"
+              },
+              {
+                "tick": 240,
+                "hash": "7a8a48de86dd9126"
+              },
+              {
+                "tick": 260,
+                "hash": "6e85b55020199ac4"
+              },
+              {
+                "tick": 280,
+                "hash": "f1c84b5b7fc593c8"
+              },
+              {
+                "tick": 300,
+                "hash": "3b7aae71ffcd6bcf"
+              },
+              {
+                "tick": 320,
+                "hash": "2a75576aac8832b5"
+              },
+              {
+                "tick": 340,
+                "hash": "1cada12989b190b6"
+              },
+              {
+                "tick": 360,
+                "hash": "30633f19d063faec"
+              },
+              {
+                "tick": 380,
+                "hash": "460348937452573b"
+              },
+              {
+                "tick": 400,
+                "hash": "7881fb8b4e225665"
+              }
+            ]
+          },
+          "snapshot_bytes": 48000,
+          "missed_deadlines": 0,
+          "skipped_transfers": 0,
+          "step": {
+            "samples": 340,
+            "mean_ms": 0.1773529415621477,
+            "p50_ms": 0.19999998807907104,
+            "p95_ms": 0.30000001192092896,
+            "p99_ms": 0.40000003576278687,
+            "max_ms": 0.7999999523162842
+          },
+          "snapshot": {
+            "samples": 340,
+            "mean_ms": 0.02205882317879621,
+            "p50_ms": 0,
+            "p95_ms": 0.10000002384185792,
+            "p99_ms": 0.10000002384185792,
+            "max_ms": 0.10000002384185792
+          },
+          "worker_copy": {
+            "samples": 340,
+            "mean_ms": 0.00941176432020524,
+            "p50_ms": 0,
+            "p95_ms": 0.09999996423721312,
+            "p99_ms": 0.10000002384185792,
+            "max_ms": 0.10000002384185792
+          },
+          "worker_memory_bytes": 1507328
+        },
+        "browser": {
+          "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+          "worker_delivery": {
+            "samples": 340,
+            "mean_ms": 1.6884812898495618,
+            "p50_ms": 0.7999023199081421,
+            "p95_ms": 4.699902355670929,
+            "p99_ms": 14.999951183795929,
+            "max_ms": 21.700048804283142
+          },
+          "page_copy": {
+            "samples": 340,
+            "mean_ms": 0.01735294040511636,
+            "p50_ms": 0,
+            "p95_ms": 0.10000002384185791,
+            "p99_ms": 0.10000002384185791,
+            "max_ms": 0.10000002384185791
+          },
+          "page_skipped": 0,
+          "gpu": {
+            "vendor": "nvidia",
+            "architecture": "pascal",
+            "device": "",
+            "description": "",
+            "fallback": false
+          },
+          "renderer_memory_bytes": 74186752
+        },
+        "chrome_version": "154.0.8037.57"
+      },
+      {
+        "options": {
+          "units": 500,
+          "rigs": 500,
+          "seed": 21041,
+          "ticks": 400,
+          "warmup": 60,
+          "width": 1920,
+          "height": 1080,
+          "fullscreen": false,
+          "inspect": false
+        },
+        "status": {
+          "ready": true,
+          "error": null,
+          "adapter": "",
+          "backend": "BrowserWebGpu",
+          "tick": 400,
+          "rigs_ready": 500,
+          "colored_rigs": [
+            250,
+            250
+          ],
+          "clip": 0,
+          "pose_changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "actual_resolution": [
+          1920,
+          1080
+        ],
+        "frame": {
+          "samples": 843,
+          "mean_ms": 20.113285883748535,
+          "p50_ms": 20,
+          "p95_ms": 20.9,
+          "p99_ms": 22.599999999999998,
+          "max_ms": 25
+        },
+        "mean_frames_per_second": 49.71838046651524,
+        "render_update": {
+          "samples": 843,
+          "mean_ms": 0.01577698695136414,
+          "p50_ms": 0,
+          "p95_ms": 0.1,
+          "p99_ms": 0.1,
+          "max_ms": 0.2
+        },
+        "view_queue": {
+          "samples": 340,
+          "mean_ms": 0.3358823529411771,
+          "p50_ms": 0.3,
+          "p95_ms": 0.4,
+          "p99_ms": 0.7,
+          "max_ms": 4.2
+        },
+        "views_applied": 340,
+        "views_replaced": 0,
+        "simulation": {
+          "trace": {
+            "version": 1,
+            "seed": 21041,
+            "units": 500,
+            "ticks": 400,
+            "orders": 8,
+            "moving": 286,
+            "fired": 8832,
+            "hits": 6338,
+            "redeployed": 910,
+            "peak_projectiles": 204,
+            "hashes": [
+              {
+                "tick": 0,
+                "hash": "255a0e23b16af2a6"
+              },
+              {
+                "tick": 20,
+                "hash": "1197b4f49fab7136"
+              },
+              {
+                "tick": 40,
+                "hash": "38578f99228b972a"
+              },
+              {
+                "tick": 60,
+                "hash": "4e614792f4ae704e"
+              },
+              {
+                "tick": 80,
+                "hash": "b1e934dbceaef371"
+              },
+              {
+                "tick": 100,
+                "hash": "53f4e36e13e0f304"
+              },
+              {
+                "tick": 120,
+                "hash": "746ded3d91766528"
+              },
+              {
+                "tick": 140,
+                "hash": "9142d5b5a0610a39"
+              },
+              {
+                "tick": 160,
+                "hash": "18b531259ef768d9"
+              },
+              {
+                "tick": 180,
+                "hash": "1d8a2767e2bacdb8"
+              },
+              {
+                "tick": 200,
+                "hash": "a87955c9f880cb85"
+              },
+              {
+                "tick": 220,
+                "hash": "4cdcbac547d7d5a1"
+              },
+              {
+                "tick": 240,
+                "hash": "8ebb2de95a628001"
+              },
+              {
+                "tick": 260,
+                "hash": "a51d98ebd29538ed"
+              },
+              {
+                "tick": 280,
+                "hash": "cf53c0ce862ffc74"
+              },
+              {
+                "tick": 300,
+                "hash": "644cfc63e2eb8111"
+              },
+              {
+                "tick": 320,
+                "hash": "adfbc8d729fd0d06"
+              },
+              {
+                "tick": 340,
+                "hash": "4c72a3c685df20ac"
+              },
+              {
+                "tick": 360,
+                "hash": "b970075a1486dbcb"
+              },
+              {
+                "tick": 380,
+                "hash": "000bf5c3ab682ef5"
+              },
+              {
+                "tick": 400,
+                "hash": "59cae18a14f2901e"
+              }
+            ]
+          },
+          "snapshot_bytes": 6000,
+          "missed_deadlines": 0,
+          "skipped_transfers": 0,
+          "step": {
+            "samples": 340,
+            "mean_ms": 0.028529412080259883,
+            "p50_ms": 0,
+            "p95_ms": 0.10000002384185792,
+            "p99_ms": 0.10000002384185792,
+            "max_ms": 0.20000004768371585
+          },
+          "snapshot": {
+            "samples": 340,
+            "mean_ms": 0.004705882423064288,
+            "p50_ms": 0,
+            "p95_ms": 0,
+            "p99_ms": 0.10000002384185792,
+            "max_ms": 0.10000002384185792
+          },
+          "worker_copy": {
+            "samples": 340,
+            "mean_ms": 0.0035294119049521055,
+            "p50_ms": 0,
+            "p95_ms": 0,
+            "p99_ms": 0.10000002384185792,
+            "max_ms": 0.10000002384185792
+          },
+          "worker_memory_bytes": 1245184
+        },
+        "browser": {
+          "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+          "worker_delivery": {
+            "samples": 340,
+            "mean_ms": 10.215240848590346,
+            "p50_ms": 10.299951195716858,
+            "p95_ms": 19.5,
+            "p99_ms": 20.699951171875,
+            "max_ms": 23.39995115995407
+          },
+          "page_copy": {
+            "samples": 340,
+            "mean_ms": 0.011470589392325457,
+            "p50_ms": 0,
+            "p95_ms": 0.10000002384185791,
+            "p99_ms": 0.10000002384185791,
+            "max_ms": 0.10000002384185791
+          },
+          "page_skipped": 0,
+          "gpu": {
+            "vendor": "nvidia",
+            "architecture": "pascal",
+            "device": "",
+            "description": "",
+            "fallback": false
+          },
+          "renderer_memory_bytes": 85983232
+        },
+        "chrome_version": "154.0.8037.57"
+      }
+    ]
+  },
+  "rivet": {
+    "blender": "5.2.2 LTS",
+    "triangles": 8076,
+    "bones": 18,
+    "glb_sha256": "819e0a51d177bc3edf41fcb8f03b4db95c352da16905ca9db29a7da17ba1af39",
+    "playback": {
+      "native": {
+        "adapter": "Quadro P600",
+        "backend": "Vulkan",
+        "clip": 2,
+        "colored_rigs": [
+          1,
+          1
+        ],
+        "error": null,
+        "native_peak_rss_bytes": 422977536,
+        "pose_changes": [
+          690,
+          762,
+          8
+        ],
+        "ready": true,
+        "rigs_ready": 2,
+        "tick": 0
+      },
+      "browser": {
+        "ready": true,
+        "error": null,
+        "adapter": "",
+        "backend": "BrowserWebGpu",
+        "tick": 0,
+        "rigs_ready": 2,
+        "colored_rigs": [
+          1,
+          1
+        ],
+        "clip": 2,
+        "pose_changes": [
+          122,
+          179,
+          9
+        ],
+        "gpu": {
+          "vendor": "nvidia",
+          "architecture": "pascal",
+          "device": "",
+          "description": "",
+          "fallback": false
+        },
+        "chrome_version": "154.0.8037.57"
+      }
+    }
+  },
+  "webrtc": {
+    "local_direct": {
+      "browser": {
+        "batches": 128,
+        "browser": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+        "connection_ms": 352.60000002384186,
+        "ice_rtt_ms": 0.0,
+        "inbound_bytes": 8398,
+        "local_candidate": "host",
+        "outbound_bytes": 8398,
+        "protocol": "udp",
+        "remote_candidate": "prflx"
+      },
+      "max_in_flight": 8,
+      "mode": "direct",
+      "native": {
+        "batches": 128,
+        "command_round_trip": {
+          "max_ms": 1.231792,
+          "mean_ms": 0.3727689453124999,
+          "p50_ms": 0.30345099999999997,
+          "p95_ms": 1.2224490000000001,
+          "p99_ms": 1.230807,
+          "samples": 128
+        },
+        "received_bytes": 8398,
+        "sent_bytes": 8398
+      },
+      "native_transport": "webrtc-rs 0.20.0"
+    },
+    "local_turn": {
+      "browser": {
+        "batches": 128,
+        "browser": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+        "connection_ms": 1143.5,
+        "ice_rtt_ms": 233.0,
+        "inbound_bytes": 8398,
+        "local_candidate": "relay",
+        "outbound_bytes": 8398,
+        "protocol": "udp",
+        "remote_candidate": "relay"
+      },
+      "max_in_flight": 8,
+      "mode": "turn",
+      "native": {
+        "batches": 128,
+        "command_round_trip": {
+          "max_ms": 200.336687,
+          "mean_ms": 12.9896837890625,
+          "p50_ms": 0.37170200000000003,
+          "p95_ms": 200.246746,
+          "p99_ms": 200.336319,
+          "samples": 128
+        },
+        "received_bytes": 8398,
+        "sent_bytes": 8398
+      },
+      "native_transport": "webrtc-rs 0.20.0"
+    },
+    "off_network": {
+      "native_peer": "Reference Ubuntu desktop on Wi-Fi",
+      "browser_peer": "GitHub-hosted ubuntu-24.04 runner, Linux x86-64",
+      "signaling": "Temporary authenticated HTTPS mailbox on Cloudflare Workers",
+      "turn_server": "Cloudflare Realtime TURN",
+      "run": "https://github.com/AJFrio/terminal-command/actions/runs/44418780035/attempts/2",
+      "direct": {
+        "result": "Data channel exchange timed out.",
+        "browser_candidates": [
+          "host",
+          "srflx"
+        ],
+        "native_candidates": [
+          "host",
+          "host",
+          "srflx",
+          "srflx"
+        ]
+      },
+      "forced_turn": {
+        "browser": {
+          "batches": 128,
+          "browser": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+          "connection_ms": 2850.6999999999534,
+          "ice_rtt_ms": 110.0,
+          "inbound_bytes": 8398,
+          "local_candidate": "relay",
+          "outbound_bytes": 8398,
+          "protocol": "udp",
+          "remote_candidate": "relay"
+        },
+        "max_in_flight": 8,
+        "mode": "turn",
+        "native": {
+          "batches": 128,
+          "command_round_trip": {
+            "max_ms": 128.563639,
+            "mean_ms": 92.83750902343749,
+            "p50_ms": 91.383393,
+            "p95_ms": 117.959799,
+            "p99_ms": 128.563272,
+            "samples": 128
+          },
+          "received_bytes": 8398,
+          "sent_bytes": 8398
+        },
+        "native_transport": "webrtc-rs 0.20.0"
+      }
+    }
+  }
+}

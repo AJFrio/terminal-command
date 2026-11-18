@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="data:,">
+<title>Terminal Command Benchmark</title>
+<link rel="stylesheet" href="./benchmark.css">
+<main>
+    <canvas id="battlefield" aria-label="Terminal Command benchmark battlefield" tabindex="0"></canvas>
+    <section class="panel" aria-label="Benchmark controls">
+        <header>
+            <h1>Terminal Command</h1>
+            <p>Cross-platform benchmark</p>
+        </header>
+        <form id="settings">
+            <label>Units <select name="units"><option>500</option><option>4000</option></select></label>
+            <label>Rivet rigs <select name="rigs"><option>0</option><option>64</option><option>500</option></select></label>
+            <button>Run</button>
+            <a href="?mode=inspect">Inspect Rivet</a>
+        </form>
+        <div id="clips" hidden>
+            <button data-clip="0">Idle</button>
+            <button data-clip="1">Move</button>
+            <button data-clip="2">Fire</button>
+            <button data-clip="-1">Cycle</button>
+            <a href="./">Battlefield</a>
+        </div>
+        <output id="status" role="status">Initializing WebGPU…</output>
+        <a id="download" hidden download="terminal-command-benchmark.json">Download report</a>
+    </section>
+</main>
+<script type="module" src="./benchmark.js"></script>
+</html>
