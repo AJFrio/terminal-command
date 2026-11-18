@@ -11,6 +11,8 @@ The unit definition is the extension point for new vehicles, robots, and structu
 
 ## Unit rigs and animation
 
+The first Foundry units have Blender Python recipes for regenerating their editable sources and GLB exports. [Foundry unit build instructions](../models/README.md)
+
 Export the mesh, armature, and named clips together as a GLB. Rigid robot parts such as armor plates and turrets can follow individual bones. Use weighted skinning where a part needs to deform. Author clips for the states each unit uses, such as `idle`, `move`, `fire`, and `destroyed`. Bake constraint-driven motion into exportable keyframes and validate the clip names and playback in both builds. [Khronos Blender exporter documentation](https://github.com/KhronosGroup/glTF-Blender-IO/blob/main/docs/blender_docs/scene_gltf2.rst) · [Bevy animated GLB example](https://bevy.org/examples/animation/animated-mesh/)
 
 Map simulation states and events to clips through the unit's visual definition. Keep movement cycles in place and let the simulation position the unit and set weapon timing. Share rig and clip assets across instances. For large armies, profile full rigs up close, less frequent pose updates at distance, and tactical icons at wide zoom.
