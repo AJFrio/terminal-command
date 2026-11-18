@@ -15,6 +15,14 @@ Export the mesh, armature, and named clips together as a GLB. Rigid robot parts 
 
 Map simulation states and events to clips through the unit's visual definition. Keep movement cycles in place and let the simulation position the unit and set weapon timing. Share rig and clip assets across instances. For large armies, profile full rigs up close, less frequent pose updates at distance, and tactical icons at wide zoom.
 
+## Player colors
+
+Each unit has a fully styled base design, including its own painted surfaces, materials, and wear. In Blender, artists designate areas such as armor panels, stripes, or markings for the owning player's color. Keep the rest of the authored finish visible. Check each design at normal play and wide zoom so ownership remains easy to identify across the roster.
+
+Use a player-color mask or a clearly designated material slot in the exported asset. The visual definition identifies the colorable regions, and the renderer applies the owning player's color while preserving the underlying surface detail. Prototype the material on desktop and browser and verify that it survives the Blender-to-GLB export. Share meshes, textures, and materials across units, and pass the player color as instance data where the rendering path supports it. Measure batching and rendering cost with mixed units and colors at the target army scale.
+
+Assign distinct colors in the match lobby and associate them with player slots for all clients. When ownership changes, the displayed color follows the new owner. Carry the same identification into tactical icons and selection feedback. Test colors against varied terrain and lighting, including color-vision-friendly choices and additional ownership cues such as icons or outlines.
+
 ## Terrain and environments
 
 - **Blender-authored maps.** Sculpt or model the terrain and dress it with props in Blender. Export terrain meshes and props for rendering. Bake gameplay height and traversal data from the terrain and tag gameplay markers such as spawn points, blockers, and resource sites.
