@@ -2,6 +2,8 @@
 
 ## 1. Cross-platform benchmark
 
+Completed November 18, 2026. [Reference runs, measurements, and engineering decisions](benchmark.md).
+
 - Build one headless Rust simulation and run the same seeded movement and combat trace natively and in browser Wasm. Verify the periodic state hashes agree.
 - Render a ground map with 500 moving units in Bevy. Prove the browser Worker handoff and native desktop executable. Jump to a synthetic 4,000-unit render and simulation load early to expose poor scaling before building the roster.
 - Export one rigged Blender unit with idle, movement, and firing clips and player-color regions. Play all three clips and check multiple player colors on desktop and browser. Measure the cost of many animated instances. [Unit rigs and animation](content.md#unit-rigs-and-animation) · [Player colors](content.md#player-colors)

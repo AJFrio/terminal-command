@@ -1,0 +1,17 @@
+[package]
+name = "tc-rtc"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+publish.workspace = true
+
+[dependencies]
+tc-session.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+tokio = { version = "1", features = ["macros", "rt-multi-thread", "time", "sync"] }
+webrtc = "=0.20.0"
+rtc = "=0.20.5"
+axum = "0.8"
+async-trait = "0.1"
+getrandom = "0.4"
