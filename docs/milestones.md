@@ -4,12 +4,13 @@
 
 - Build one headless Rust simulation and run the same seeded movement and combat trace natively and in browser Wasm. Verify the periodic state hashes agree.
 - Render a ground map with 500 moving units in Bevy. Prove the browser Worker handoff and native desktop executable. Jump to a synthetic 4,000-unit render and simulation load early to expose poor scaling before building the roster.
+- Export one rigged Blender unit with idle, movement, and firing clips. Play all three clips on desktop and browser and measure the cost of many animated instances. [Unit rigs and animation](content.md#unit-rigs-and-animation)
 - Exchange command batches between a native process and a browser tab via WebRTC, first on a direct path and then with TURN forced. Test another physical network before choosing the native transport library.
 - Record the reference OS, browser, CPU, GPU, resolution, frame and tick percentiles, and transfer cost. Use the results to decide whether Bevy's built-in instancing or a specialized rendering path meets the budget. [Benchmark design](simulation.md#initial-benchmark-gates)
 
 ## 2. First playable 1v1
 
-Build one grounded combat loop with a builder, resource income, a factory, one light vehicle, one combat robot, and one map with a choke and an open route. Add selection, camera, move and attack orders, and basic fog. Run it offline against a scripted enemy. Prove that a new unit using existing capabilities can be added through the content pipeline. Exercise 4,000 active units with representative systems and record deterministic replays before fleshing out more factions.
+Build one grounded combat loop with a builder, resource income, a factory, one light vehicle, one combat robot, and one map with a choke and an open route. Compile the map from either a Blender scene or a seeded generator and check that the rendered terrain matches the simulation grid. Add selection, camera, move and attack orders, and basic fog. Run it offline against a scripted enemy. Prove that a new unit using existing capabilities can be added through the content pipeline. Exercise 4,000 active units with representative systems and record deterministic replays before fleshing out more factions.
 
 ## 3. Private online playtest
 

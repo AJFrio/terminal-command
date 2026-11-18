@@ -5,9 +5,22 @@ The unit definition is the extension point for new vehicles, robots, and structu
 ## Authoring and loading
 
 1. Author a unit definition with a stable, namespaced ID, a footprint, durability, build cost, and references to reusable capabilities. Give each faction its own names, shapes, and visual identity.
-2. Add its visual definition with a model, icon, effects, and audio. Use GLB for runtime models and keep editable source art and its provenance. [Khronos glTF specification](https://registry.khronos.org/glTF/specs/2.0/glTF-2.0.html)
+2. Model, rig, and animate the unit in Blender. Keep its editable `.blend` source and provenance, and reference the exported GLB, icon, effects, and audio from its visual definition. [Blender glTF exporter documentation](https://docs.blender.org/manual/en/latest/addons/scene_gltf2.html)
 3. Run a content compiler that checks schema version, ID uniqueness, numeric bounds, references, asset availability, and cross-platform asset budgets. Compile rules and gameplay map data into a bundle with stable ordering and a digest. Emit a separate manifest for visual assets.
 4. Load definitions once per match and assign compact runtime IDs. Each unit instance holds its definition handle and changing state. Load the selected map and roster assets as needed. Expanding the catalog should mainly affect the content built or loaded. The simulation cost should follow the units present and the work their capabilities do.
+
+## Unit rigs and animation
+
+Export the mesh, armature, and named clips together as a GLB. Rigid robot parts such as armor plates and turrets can follow individual bones. Use weighted skinning where a part needs to deform. Author clips for the states each unit uses, such as `idle`, `move`, `fire`, and `destroyed`. Bake constraint-driven motion into exportable keyframes and validate the clip names and playback in both builds. [Khronos Blender exporter documentation](https://github.com/KhronosGroup/glTF-Blender-IO/blob/main/docs/blender_docs/scene_gltf2.rst) · [Bevy animated GLB example](https://bevy.org/examples/animation/animated-mesh/)
+
+Map simulation states and events to clips through the unit's visual definition. Keep movement cycles in place and let the simulation position the unit and set weapon timing. Share rig and clip assets across instances. For large armies, profile full rigs up close, less frequent pose updates at distance, and tactical icons at wide zoom.
+
+## Terrain and environments
+
+- **Blender-authored maps.** Sculpt or model the terrain and dress it with props in Blender. Export terrain meshes and props for rendering. Bake gameplay height and traversal data from the terrain and tag gameplay markers such as spawn points, blockers, and resource sites.
+- **Procedural maps.** Generate terrain, traversal data, and gameplay markers from a seed and versioned settings. Use Blender-authored props wherever they fit. Bake generated maps through the content compiler first and retain the seed, generator version, and parameters for reproduction.
+
+Both workflows produce the same map bundle. The simulation reads canonical heights, traversal data, blockers, spawns, and resource sites. The client loads the corresponding terrain chunks, materials, and props. Validate gameplay markers and their alignment with the rendered terrain. Include the compiled gameplay map digest in multiplayer and replay checks so desktop and browser use the same battlefield.
 
 ## Example unit
 
