@@ -14,6 +14,7 @@ Terminal Command is a large-scale 3D RTS with original robotic infantry, armored
 ## Design documents
 
 - [Architecture](architecture.md) covers platform choices, code boundaries, and how the simulation and client fit together.
+- [First playable match](first-match.md) describes the starting 1v1 rules, army controls, visual goals, and playtest.
 - [Simulation and performance](simulation.md) covers deterministic ticks, pathfinding, and the benchmark workloads and budgets.
 - [Units and content](content.md) describes unit definitions, Blender rigs and animation exports, and both terrain workflows.
 - [Multiplayer](multiplayer.md) covers the command protocol, connection failures, hosting costs, and fairness tradeoffs.
