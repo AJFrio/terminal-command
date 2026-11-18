@@ -8,14 +8,14 @@ Terminal Command is a large-scale 3D RTS with original robotic infantry, armored
 | --- | --- |
 | Desktop and browser | One Rust simulation compiled to native code and WebAssembly, with Bevy as the first candidate for rendering, UI, and input. |
 | Army scale | Budget for **2,000 active units per player** as a working number. Prove 4,000 total in 1v1, then 8,000 total in a four-player match. |
-| Unit authoring | Compose units from data definitions and reusable gameplay systems. Compile match rules separately from visual assets. |
+| Content authoring | Combine reusable unit definitions with rigged, animated Blender exports. Build maps in Blender or generate them procedurally. |
 | Online play | Start with invite-only WebRTC matches. Each player simulates the match locally from the same ordered commands. A small service handles invites and connection setup, with TURN relay when required. |
 
 ## Design documents
 
 - [Architecture](architecture.md) covers platform choices, code boundaries, and how the simulation and client fit together.
 - [Simulation and performance](simulation.md) covers deterministic ticks, pathfinding, and the benchmark workloads and budgets.
-- [Units and content](content.md) describes how to add a new robotic unit, vehicle, or building.
+- [Units and content](content.md) describes unit definitions, Blender rigs and animation exports, and both terrain workflows.
 - [Multiplayer](multiplayer.md) covers the command protocol, connection failures, hosting costs, and fairness tradeoffs.
 - [Development milestones](milestones.md) gives the order of work and the evidence needed before expanding scope.
 
